@@ -29,4 +29,6 @@ public class HelloControllerTests {
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(MockMvcResultMatchers.status().is2xxSuccessful())
                 .andExpect(MockMvcResultMatchers.content().string("Hello Sashi2 World"));
-    }}
+        System.out.println("Hello Sashi2 World");
+    }
+}
