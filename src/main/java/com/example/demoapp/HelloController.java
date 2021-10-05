@@ -9,8 +9,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String printHelloWorld(){
-        return "Hello Sashi1 World";
-
+        return "Hello Sashi2 World";
     }
 
 }
