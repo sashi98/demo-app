@@ -28,6 +28,6 @@ public class HelloControllerTests {
         mvc.perform(MockMvcRequestBuilders.get("/")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(MockMvcResultMatchers.status().is2xxSuccessful())
-                .andExpect(MockMvcResultMatchers.content().string("Hello Sashi3 World"));
+                .andExpect(MockMvcResultMatchers.content().string("Hello batch 7 World"));
     }
 }
